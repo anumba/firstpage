@@ -1,0 +1,227 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    margin-top: 2%;
+
+}
+
+a{
+    color: #2E3A53;
+    margin:auto ;
+    margin-right: 20%;
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.Navbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 0.1rem solid #155EEF ;
+    border-radius: 0.5rem;
+}
+
+.Navbar img{
+    margin-left: 2%;
+}
+
+
+#first-btn{
+    padding: 2%;
+    color: #155EEF;
+    background-color: #F9FBFF;
+    border-radius: 0.2rem;
+}
+
+.Navbar-item{
+    /* gap: 10%; */
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin:  auto 2%;
+}
+
+.Navbar-item button{
+    border-radius: 9%;
+    border: .063rem solid #155EEF;
+    padding: 3%;
+    color: #155EEF;
+    background-color: #F9FBFF;
+    border-radius: .063rem;
+}
+
+.firstbody{
+    border: 1px solid #155EEF;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px; 
+    border-radius: .5rem;
+    display: flex;
+}
+
+.left1{
+    width: 45%;
+    margin-left: 3%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.name{
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.5rem;
+    margin-bottom: 2%;
+    margin-top: .8%;
+    color: #155EEF;
+}
+
+p{
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #2E3A53;
+}
+
+#About{
+    margin-bottom: 6%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#second-btn{
+    border-radius: 5%;
+    color: #F9FBFF;
+    background-color: #155EEF;
+    padding-right: 3%;
+    border: none;
+    padding: 2%;
+    /* padding-left: ; */
+    text-align: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.right1{
+    /* display: flex; */
+    /* justify-content: right; */
+    width: 35%;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 3%;
+}
+
+.secondbody{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    margin-top: 2%;
+    border: 1px solid  #155EEF;
+    border-radius: .5rem;
+}
+
+.left2{
+    width: 40%;
+    /* margin-right: 5; */
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+}
+
+.left2 img{
+    border: 0.5px solid #155EEF;
+    border-right: none;
+    padding: .5%;
+
+}
+
+.right2{
+    width: 40%;
+    margin: auto;
+    margin-right: 3%;
+}
+
+h2{
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #041330;
+    margin-bottom: 2%;
+}
+
+.right2 p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #2E3A53;
+}
+
+.footer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 0.1rem solid #155EEF ;
+    border-radius: 0.5rem;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+}
+
+.footer img{
+    margin-left: 2%;
+}
+
+.centerfoot{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.face{
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.twitter{
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.insta{
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.footer p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    margin-right: 3%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
