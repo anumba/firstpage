@@ -35,6 +35,7 @@ a{
 
 .Navbar img{
     margin-left: 2%;
+    width: 20%;
 }
 
 
@@ -129,6 +130,10 @@ p{
     margin-right: 3%;
 }
 
+.right1 img{
+    width: 100%;
+}
+
 .secondbody{
     display: flex;
     margin: auto;
@@ -176,6 +181,71 @@ h2{
     color: #2E3A53;
 }
 
+.thirdbody{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    margin-top: 2%;
+    border: 1px solid  #155EEF;
+    border-radius: .5rem;
+    position: relative;
+}
+
+.left3{
+    background: #F9FBFF;
+    position: absolute;
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+
+.left3 h2 {
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.left3 p {
+    width: 95%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    width: 95%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 120%;
+}
+
+.left3 li{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 120%;
+    color: #2E3A53;
+    margin-left: 7%;
+    width: 90%;
+
+}
+
+
+.right3{
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    margin-right: 3%;
+}
+
+.right3 img { 
+    width: 100%;
+
+}
+
 .footer{
     width: 90%;
     margin: auto;
@@ -194,11 +264,11 @@ h2{
 }
 
 .centerfoot{
+    /* width: 10%; */
     margin: auto;
     display: flex;
-    justify-content: center;
+    /* justify-content: center space-around; */
     margin-left: auto;
-    margin-right: auto;
 }
 
 .face{
