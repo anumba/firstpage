@@ -9,8 +9,8 @@
 body {
     width: 100%;
     margin-top: 2%;
-
 }
+
 
 a {
     color: #2E3A53;
@@ -335,6 +335,18 @@ footer p {
 @media screen and (max-width: 400px) {
     body {
         width: 100%;
+        padding-top: 6%;
+    }
+
+    nav{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    }
+
+    .Navbar {
+        margin-left: 19px;
+        background-color: #F9FBFF;
     }
 
     .Navbar img {
@@ -379,12 +391,6 @@ footer p {
     }
 
 
-
-
-
-
-
-
     #About {
         font-size: 12px;
     }
@@ -413,10 +419,6 @@ footer p {
     #second-btn {
         padding: 2% 30%;
         font-size: 10px;
-    }
-
-    .thirdbody {
-        display: none;
     }
 
     .name {
@@ -449,6 +451,22 @@ footer p {
 
     .right2 h2 {
         font-size: 17px;
+    }
+
+
+    .thirdbody {
+     display: flex;
+    }
+
+
+    .right3{
+        display: none;
+    }
+
+    .left3{
+        position: static; 
+        width: 100%;
+        
     }
 
     .footer-Img img {
@@ -499,6 +517,9 @@ footer p {
 
     /* } */
 
+        .B-section .hide{
+             display: none;
+        }
 
 
 
