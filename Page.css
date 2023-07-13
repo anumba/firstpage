@@ -345,7 +345,9 @@ footer p {
     }
 
     .Navbar {
-        margin-left: 19px;
+        right: 0;
+        left: 0;
+        align-items: center;
         background-color: #F9FBFF;
     }
 
