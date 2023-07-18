@@ -392,6 +392,12 @@ footer p {
 
     }
 
+    .mobile-nav {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+
 
     #About {
         font-size: 12px;
